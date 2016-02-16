@@ -1,0 +1,10 @@
+﻿{
+	"operationSymbols": [
+		{"Key": "CashToCard", "Value": "31"},
+		{"Key": "WireTransfer", "Value": "32"},
+		{"Key": "Allods", "Value": "33"},
+		{"Key": "AnyOther", "Value": "34"},
+	],
+	"baseUrl": "http://10.77.14.20:12345",
+	"listenPort": 12345
+}

@@ -1,0 +1,95 @@
+﻿{
+  "Client": {
+    "Id": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "CountryOfResidence": "RUS",
+    "FirstName": "Андрей",
+    "LastName": "Иванов",
+    "MiddleName": "Анатольевич",
+    "Gender": 1,
+    "BirthPlace": "Россия",
+    "BirthDate": "1967-11-21T00:00:00",
+    "PhoneNumber": "89203580048",
+    "TaxpayerIndividualIdentificationNumber": "",
+    "Address": {
+      "AddressString": "",
+      "Apartment": "83",
+      "Building": "а",
+      "City": "Тверь",
+      "CountryCode": "RUS",
+      "House": "32",
+      "Postcode": "",
+      "State": "",
+      "Street": "Т.Ильиной ул"
+    },
+    "Documents": [
+      {
+        "ExpiryDate": null,
+        "ExtraValues": [],
+        "IssueDate": "2012-12-21T00:00:00",
+        "Issuer": "Отделом УФМС России по Тверской области в Московском районе гор.Твери",
+        "IssuerDepartmentCode": "690-040",
+        "Number": "220368",
+        "Series": "2812",
+        "Type": 35
+      }
+    ],
+    "Source": null
+  },
+  "ClientContext": {
+    "ClientId": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "Documents": [
+      {
+        "Series": "2812",
+        "Number": "220368"
+      }
+    ]
+  },
+  "SecurityContext": {
+    "AgentId": 11153,
+    "BankId": 334579,
+    "CashierId": 1654,
+    "CashWindow": 3,
+    "CashierUniqueId": "64e568e1-c77c-aa42-a772-526bfd22c07a",
+    "CashierLogin": "sn_1"
+  },
+  "Data": {
+    "Input": {
+      "CardNumber": "4779646326374668",
+      "Amount": "1000.00",
+      "AmountType": "WithdrawAmount",
+      "AcceptedCurrency": "RUB",
+      "WithdrawCurrency": "RUB",
+      "RecipientFirstName": "Мария",
+      "RecipientMiddleName": "",
+      "RecipientLastName": "Ивава"
+    },
+    "Closure": {
+      "field1": "4bb5a4fd-9a29-4a34-a44c-ca4aa150a172",
+      "field2": 3,
+      "field3": "4",
+      "field4": {
+        "subfield1": true,
+        "subfield2": null
+      },
+      "field5": [ 3, 5, 7 ]
+    },
+    "Output": {}
+  },
+  "Id": "2432b01a-e8d8-4f5b-a188-2c8c01db19e7",
+  "Type": "CashToCard",
+  "Status": "Accepted",
+  "StatusMessage": null,
+  "Title": "Пополнение банковской карты",
+  "DataErrors": {},
+  "SignDocument": "/v1/operations/2432b01a-e8d8-4f5b-a188-2c8c01db19e7/documents/",
+  "Documents": [],
+  "ClearingContext": {
+    "Amount": 1000.0,
+    "Currency": "RUB",
+    "AgentFee": 20.0,
+    "AgentFeeCurrency": "RUB",
+    "TotalFee": 50.0,
+    "TotalFeeCurrency": "RUB",
+    "ClearingRef": "065896223123"
+  }
+}

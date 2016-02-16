@@ -1,0 +1,73 @@
+﻿{
+  "Client": {
+    "Id": "d362fa33-4180-48c9-9a09-d6de4366919f",
+    "CountryOfResidence": "RUS",
+    "FirstName": "Станислав",
+    "LastName": "Иванов",
+    "MiddleName": "Валерьевич",
+    "Gender": 1,
+    "BirthPlace": "Ленинград",
+    "BirthDate": "1985-09-13T00:00:00",
+    "PhoneNumber": "88125740025",
+    "TaxpayerIndividualIdentificationNumber": "",
+    "Address": {
+      "AddressString": "",
+      "Apartment": "",
+      "Building": "",
+      "City": "СПБ",
+      "CountryCode": "RUS",
+      "House": "31",
+      "Postcode": "",
+      "State": "",
+      "Street": "Некрасова"
+    },
+    "Documents": [
+      {
+        "ExpiryDate": null,
+        "ExtraValues": [],
+        "IssueDate": "2005-11-16T00:00:00",
+        "Issuer": "73 ОМ Фрунзенского р-на Спб",
+        "IssuerDepartmentCode": "782-073",
+        "Number": "753974",
+        "Series": "4005",
+        "Type": 35
+      }
+    ],
+    "Source": null
+  },
+  "ClientContext": {
+    "ClientId": "d362fa33-4180-48c9-9a09-d6de4366919f",
+    "Documents": [
+      {
+        "Series": "4005",
+        "Number": "753974"
+      }
+    ]
+  },
+  "SecurityContext": {
+    "AgentId": 11153,
+    "BankId": 334579,
+    "CashierId": 1654,
+    "CashWindow": 3,
+    "CashierUniqueId": "64e568e1-c77c-aa42-a772-526bfd22c07a",
+    "CashierLogin": "sn_1"
+  },
+  "Data": {
+    "Input": {
+      "Code": "041503614210",
+      "Amount": "1000.00",
+      "Currency": "RUB"
+    },
+    "Closure": {},
+    "Output": {}
+  },
+  "Id": "188fda7d-c4db-4556-9539-39beb410cd04",
+  "Type": "PayoutTransfer",
+  "Status": "Created",
+  "StatusMessage": null,
+  "Title": "Выдать перевод",
+  "DataErrors": {},
+  "SignDocument": "/v1/operations/188fda7d-c4db-4556-9539-39beb410cd04/documents/",
+  "Documents": [],
+  "ClearingContext": null
+}

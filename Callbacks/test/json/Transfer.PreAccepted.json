@@ -1,0 +1,78 @@
+﻿{
+  "Client": {
+    "Id": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "CountryOfResidence": "RUS",
+    "FirstName": "Андрей",
+    "LastName": "Иванов",
+    "MiddleName": "Анатольевич",
+    "Gender": 1,
+    "BirthPlace": "Россия",
+    "BirthDate": "1967-11-21T00:00:00",
+    "PhoneNumber": "89203580048",
+    "TaxpayerIndividualIdentificationNumber": "",
+    "Address": {
+      "AddressString": "",
+      "Apartment": "83",
+      "Building": "а",
+      "City": "Тверь",
+      "CountryCode": "RUS",
+      "House": "32",
+      "Postcode": "",
+      "State": "",
+      "Street": "Т.Ильиной ул"
+    },
+    "Documents": [
+      {
+        "ExpiryDate": null,
+        "ExtraValues": [],
+        "IssueDate": "2012-12-21T00:00:00",
+        "Issuer": "Отделом УФМС России по Тверской области в Московском районе гор.Твери",
+        "IssuerDepartmentCode": "690-040",
+        "Number": "220368",
+        "Series": "2812",
+        "Type": 35
+      }
+    ],
+    "Source": null
+  },
+  "ClientContext": {
+    "ClientId": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "Documents": [
+      {
+        "Series": "2812",
+        "Number": "220368"
+      }
+    ]
+  },
+  "SecurityContext": {
+    "AgentId": 11153,
+    "BankId": 334579,
+    "CashierId": 1654,
+    "CashWindow": 3,
+    "CashierUniqueId": "64e568e1-c77c-aa42-a772-526bfd22c07a",
+    "CashierLogin": "sn_1"
+  },
+  "Data": {
+    "Input": {
+      "BeneficiaryFirstName": "Джон",
+      "BeneficiaryLastName": "Иванов",
+      "BeneficiaryMiddleName": "",
+      "AcceptedCurrency": "RUB",
+      "WithdrawCurrency": "RUB",
+      "Amount": "1000.00",
+      "Country": "RUS",
+      "CountryHintSet": "ok"
+    },
+    "Closure": {},
+    "Output": {}
+  },
+  "Id": "3cd11fed-f73b-4692-9712-61aca50ad59b",
+  "Type": "Transfer",
+  "Status": "Created",
+  "StatusMessage": null,
+  "Title": "Отправить перевод",
+  "DataErrors": {},
+  "SignDocument": "/v1/operations/3cd11fed-f73b-4692-9712-61aca50ad59b/documents/",
+  "Documents": [],
+  "ClearingContext": null
+}

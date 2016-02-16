@@ -1,0 +1,105 @@
+﻿{
+  "Client": {
+    "Id": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "CountryOfResidence": "RUS",
+    "FirstName": "Андрей",
+    "LastName": "Иванов",
+    "MiddleName": "Анатольевич",
+    "Gender": 1,
+    "BirthPlace": "Россия",
+    "BirthDate": "1967-11-21T00:00:00",
+    "PhoneNumber": "89203580048",
+    "TaxpayerIndividualIdentificationNumber": "",
+    "Address": {
+      "AddressString": "",
+      "Apartment": "83",
+      "Building": "а",
+      "City": "Тверь",
+      "CountryCode": "RUS",
+      "House": "32",
+      "Postcode": "",
+      "State": "",
+      "Street": "Т.Ильиной ул"
+    },
+    "Documents": [
+      {
+        "ExpiryDate": null,
+        "ExtraValues": [],
+        "IssueDate": "2012-12-21T00:00:00",
+        "Issuer": "Отделом УФМС России по Тверской области в Московском районе гор.Твери",
+        "IssuerDepartmentCode": "690-040",
+        "Number": "220368",
+        "Series": "2812",
+        "Type": 35
+      }
+    ],
+    "Source": null
+  },
+  "ClientContext": {
+    "ClientId": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "Documents": [
+      {
+        "Series": "2812",
+        "Number": "220368"
+      }
+    ]
+  },
+  "SecurityContext": {
+    "AgentId": 11153,
+    "BankId": 334579,
+    "CashierId": 1654,
+    "CashWindow": 3,
+    "CashierUniqueId": "64e568e1-c77c-aa42-a772-526bfd22c07a",
+    "CashierLogin": "sn_1"
+  },
+  "Data": {
+    "Input": {
+      "BeneficiaryByRef": "Swift",
+      "BeneficiaryType": "Individual",
+      "BeneficiaryName": "",
+      "BeneficiaryLastName": "Doe",
+      "BeneficiaryFirstName": "John",
+      "BeneficiaryMiddleName": "",
+      "BeneficiaryAddress": "Random street, 15",
+      "Amount": "1000.00",
+      "AcceptedCurrency": "RUB",
+      "WithdrawCurrency": "USD",
+      "BeneficiaryAccount": "SDFJDSKF443209",
+      "TransferDetails": "FAMILY / RELATIVES MAINTENANCE",
+      "BeneficiarySwift": "AAASTHB1XXX",
+      "BrokerBankCorrAccountNumber": null,
+      "Broker": "false",
+      "TransferDetailsOptions": "FAMILY / RELATIVES MAINTENANCE",
+      "TransferDetailsInvoiceNumber": "",
+      "BeneficiaryCountry": "ALB"
+    },
+    "Closure": {
+      "field1": "7abeb13f-6a95-4394-ada3-a9b7cd2719cc",
+      "field2": 3,
+      "field3": "4",
+      "field4": {
+        "subfield1": true,
+        "subfield2": null
+      },
+      "field5": [ 3, 5, 7 ]
+    },
+    "Output": {}
+  },
+  "Id": "005c274a-c217-471c-97a8-7f9cca6e3333",
+  "Type": "SwiftTransfer",
+  "Status": "Accepted",
+  "StatusMessage": null,
+  "Title": "Универсальный платеж в валюте",
+  "DataErrors": {},
+  "SignDocument": "/v1/operations/005c274a-c217-471c-97a8-7f9cca6e3333/documents/",
+  "Documents": [],
+  "ClearingContext": {
+    "Amount": 1000.0,
+    "Currency": "RUB",
+    "AgentFee": 282.4,
+    "AgentFeeCurrency": "RUB",
+    "TotalFee": 705.99,
+    "TotalFeeCurrency": "RUB",
+    "ClearingRef": "187859267671"
+  }
+}

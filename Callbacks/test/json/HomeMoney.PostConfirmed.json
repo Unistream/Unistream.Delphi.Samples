@@ -1,0 +1,93 @@
+﻿{
+  "Client": {
+    "Id": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "CountryOfResidence": "RUS",
+    "FirstName": "Андрей",
+    "LastName": "Иванов",
+    "MiddleName": "Анатольевич",
+    "Gender": 1,
+    "BirthPlace": "Россия",
+    "BirthDate": "1967-11-21T00:00:00",
+    "PhoneNumber": "89203580048",
+    "TaxpayerIndividualIdentificationNumber": "",
+    "Address": {
+      "AddressString": "",
+      "Apartment": "83",
+      "Building": "а",
+      "City": "Тверь",
+      "CountryCode": "RUS",
+      "House": "32",
+      "Postcode": "",
+      "State": "",
+      "Street": "Т.Ильиной ул"
+    },
+    "Documents": [
+      {
+        "ExpiryDate": null,
+        "ExtraValues": [],
+        "IssueDate": "2012-12-21T00:00:00",
+        "Issuer": "Отделом УФМС России по Тверской области в Московском районе гор.Твери",
+        "IssuerDepartmentCode": "690-040",
+        "Number": "220368",
+        "Series": "2812",
+        "Type": 35
+      }
+    ],
+    "Source": null
+  },
+  "ClientContext": {
+    "ClientId": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "Documents": [
+      {
+        "Series": "2812",
+        "Number": "220368"
+      }
+    ]
+  },
+  "SecurityContext": {
+    "AgentId": 11153,
+    "BankId": 334579,
+    "CashierId": 1654,
+    "CashWindow": 3,
+    "CashierUniqueId": "64e568e1-c77c-aa42-a772-526bfd22c07a",
+    "CashierLogin": "sn_1"
+  },
+  "Data": {
+    "Input": {
+      "ContractNumber": "1234567890",
+      "PhoneNumber": "9687895213",
+      "Amount": "1235.12"
+    },
+    "Closure": {
+      "field1": "38abe746-dce7-40ff-ad14-580662f21507",
+      "field2": 3,
+      "field3": "4",
+      "field4": {
+        "subfield1": true,
+        "subfield2": null
+      },
+      "field5": [ 3, 5, 7 ]
+    },
+    "Output": {}
+  },
+  "Id": "c5cbe342-b26a-4ed7-befa-ece7312773b4",
+  "Type": "HomeMoney",
+  "Status": "Confirmed",
+  "StatusMessage": "Платеж успешно создан, подпишите приходный кассовый ордер (только для Касс ЮНИСТРИМ), поставьте печать на заявление.",
+  "Title": "Домашние Деньги",
+  "DataErrors": {},
+  "SignDocument": "/v1/operations/c5cbe342-b26a-4ed7-befa-ece7312773b4/documents/4d5b0358-925b-4e83-a87e-11ccc2e3b2ff",
+  "Documents": [
+    "/v1/operations/c5cbe342-b26a-4ed7-befa-ece7312773b4/documents/978caec1-6362-4086-a2c8-631b9853843a",
+    "/v1/operations/c5cbe342-b26a-4ed7-befa-ece7312773b4/documents/cb17edc9-5fd7-486b-8a58-7a27d4521e23"
+  ],
+  "ClearingContext": {
+    "Amount": 1235.12,
+    "Currency": "RUB",
+    "AgentFee": 3.71,
+    "AgentFeeCurrency": "RUB",
+    "TotalFee": 0.0,
+    "TotalFeeCurrency": "RUB",
+    "ClearingRef": "163466658768"
+  }
+}

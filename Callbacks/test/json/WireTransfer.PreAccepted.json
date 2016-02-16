@@ -1,0 +1,84 @@
+﻿{
+  "Client": {
+    "Id": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "CountryOfResidence": "RUS",
+    "FirstName": "Андрей",
+    "LastName": "Иванов",
+    "MiddleName": "Анатольевич",
+    "Gender": 1,
+    "BirthPlace": "Россия",
+    "BirthDate": "1967-11-21T00:00:00",
+    "PhoneNumber": "89203580048",
+    "TaxpayerIndividualIdentificationNumber": "",
+    "Address": {
+      "AddressString": "",
+      "Apartment": "83",
+      "Building": "а",
+      "City": "Тверь",
+      "CountryCode": "RUS",
+      "House": "32",
+      "Postcode": "",
+      "State": "",
+      "Street": "Т.Ильиной ул"
+    },
+    "Documents": [
+      {
+        "ExpiryDate": null,
+        "ExtraValues": [],
+        "IssueDate": "2012-12-21T00:00:00",
+        "Issuer": "Отделом УФМС России по Тверской области в Московском районе гор.Твери",
+        "IssuerDepartmentCode": "690-040",
+        "Number": "220368",
+        "Series": "2812",
+        "Type": 35
+      }
+    ],
+    "Source": null
+  },
+  "ClientContext": {
+    "ClientId": "940972a1-485a-46fe-a1e4-2fa6a43a42bc",
+    "Documents": [
+      {
+        "Series": "2812",
+        "Number": "220368"
+      }
+    ]
+  },
+  "SecurityContext": {
+    "AgentId": 11153,
+    "BankId": 334579,
+    "CashierId": 1654,
+    "CashWindow": 3,
+    "CashierUniqueId": "64e568e1-c77c-aa42-a772-526bfd22c07a",
+    "CashierLogin": "sn_1"
+  },
+  "Data": {
+    "Input": {
+      "Amount": "1234.45",
+      "AcceptedCurrency": "RUB",
+      "VAT": "0",
+      "RecipientType": "LegalEntity",
+      "RecipientName": "ООО Международное сотрудничество",
+      "RecipientLastName": "",
+      "RecipientFirstName": "",
+      "RecipientMiddleName": "",
+      "RecipientBankBIC": "040349602",
+      "RecipientAccount": "40702810930000041870",
+      "RecipientINN": "2310112910",
+      "TransferDetails": "ABC XYZ",
+      "RecipientKPP": "231001001",
+      "CashSymbol": "32"
+    },
+    "Closure": {},
+    "Output": {}
+  },
+  "Id": "02a6d80d-0e37-4f17-b19c-78ec3f9173d5",
+  "Type": "WireTransfer",
+  "Status": "Created",
+  "StatusMessage": null,
+  "Title": "Универсальный платеж",
+  "DataErrors": {},
+  "SignDocument": "/v1/operations/02a6d80d-0e37-4f17-b19c-78ec3f9173d5/documents/",
+  "Documents": [],
+  "ClearingContext": null
+}
